@@ -106,17 +106,17 @@ namespace Advanced
 
     #region Quistion6
 
-    Q6: What is a generic interface? Write IRepository<T>.
+    //Q6: What is a generic interface? Write IRepository<T>.
 
-        A generic interface defines a contract of methods, properties, or events without tying them to a specific data type.
-        It is widely used in patterns like the Repository Pattern for data access.
-        public interface IRepository<T>
-    {
-        void Add(T entity);
-        T GetById(int id);
-        IEnumerable<T> GetAll();
-        void Remove(T entity);
-    }
+    //    A generic interface defines a contract of methods, properties, or events without tying them to a specific data type.
+    //    It is widely used in patterns like the Repository Pattern for data access.
+    //    public interface IRepository<T>
+    //{
+    //    void Add(T entity);
+    //    T GetById(int id);
+    //    IEnumerable<T> GetAll();
+    //    void Remove(T entity);
+    //}
     #endregion
 
     #region Quistion7
