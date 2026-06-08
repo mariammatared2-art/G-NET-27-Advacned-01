@@ -120,17 +120,17 @@ namespace Advanced
     #endregion
 
     #region Quistion7
-    Q7: What is the 'struct' constraint? Write an example.
-        The where T : struct constraint specifies that the type argument must be 
-        a value type(like int, bool, double, or custom structs). It excludes nullable value types.
-        public class Contaner<T> where T : struct
-    {
-        public  Contaner (ref T value)
-        {
-            T Value = value;
-        }
-        public T Value { get; set; }
-    }
+    //Q7: What is the 'struct' constraint? Write an example.
+    //    The where T : struct constraint specifies that the type argument must be 
+    //    a value type(like int, bool, double, or custom structs). It excludes nullable value types.
+    //    public class Contaner<T> where T : struct
+    //{
+    //    public  Contaner (ref T value)
+    //    {
+    //        T Value = value;
+    //    }
+    //    public T Value { get; set; }
+    //}
     #endregion
 
     #region Quistion8
