@@ -308,18 +308,18 @@ namespace Advanced
     #endregion
 
     #region Quistion19
-    Q19: How can you inherit from a generic class?
-        A subclass can inherit from a generic base class in three main ways:
+//    Q19: How can you inherit from a generic class?
+//        A subclass can inherit from a generic base class in three main ways:
 
-1. Close the generic type argument explicitly
-public class BaseClass<T> { }
-    public class DerivedClass : BaseClass<int> { } // Closed inheritance
-2. Keep the subclass generic
-public class BaseClass<T> { }
-    public class DerivedClass<T> : BaseClass<T> { } // Open generic inheritance
-3. Add or modify type parameters
-public class BaseClass<T> { }
-    public class DerivedClass<T, U> : BaseClass<T> { }
+//1. Close the generic type argument explicitly
+//public class BaseClass<T> { }
+//    public class DerivedClass : BaseClass<int> { } // Closed inheritance
+//2. Keep the subclass generic
+//public class BaseClass<T> { }
+//    public class DerivedClass<T> : BaseClass<T> { } // Open generic inheritance
+//3. Add or modify type parameters
+//public class BaseClass<T> { }
+//    public class DerivedClass<T, U> : BaseClass<T> { }
 
     #endregion
 
