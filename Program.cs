@@ -245,17 +245,17 @@ namespace Advanced
     #endregion
 
     #region Quistion15
-    Q15: What is covariance? Explain the 'out' keyword.
-        Covariance enables you to use a more derived type(child) than originally specified.
-        In C#, you enable covariance on generic interfaces or delegates using the out keyword.
-        Covariance only applies to output positions(return types of methods).
+    //Q15: What is covariance? Explain the 'out' keyword.
+    //    Covariance enables you to use a more derived type(child) than originally specified.
+    //    In C#, you enable covariance on generic interfaces or delegates using the out keyword.
+    //    Covariance only applies to output positions(return types of methods).
 
-        public interface ICovariant<out T>
-    {
-        T GetItem(); 
-     }
-         ICovariant<string> strProvider = null;
-        ICovariant<object> objProvider = strProvider;
+    //    public interface ICovariant<out T>
+    //{
+    //    T GetItem(); 
+    // }
+    //     ICovariant<string> strProvider = null;
+    //    ICovariant<object> objProvider = strProvider;
 
     #endregion
 
