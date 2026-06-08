@@ -260,18 +260,18 @@ namespace Advanced
     #endregion
 
     #region Quistion16
-    Q16: What is contravariance? Explain the 'in' keyword.
-        Contravariance enables you to use a more generic(base) type than originally specified.
-        In C#, you enable contravariance using the in keyword.
+//    Q16: What is contravariance? Explain the 'in' keyword.
+//        Contravariance enables you to use a more generic(base) type than originally specified.
+//        In C#, you enable contravariance using the in keyword.
 
-        Contravariance only applies to input positions (parameters of methods).
+//        Contravariance only applies to input positions (parameters of methods).
 
-        public interface IContravariant<in T>
-    {
-        void ProcessItem(T item);
-}
-IContravariant<object> objProcessor = null;
-        IContravariant<string> strProcessor = objProcessor;
+//        public interface IContravariant<in T>
+//    {
+//        void ProcessItem(T item);
+//}
+//IContravariant<object> objProcessor = null;
+//        IContravariant<string> strProcessor = objProcessor;
 
 
     #endregion
