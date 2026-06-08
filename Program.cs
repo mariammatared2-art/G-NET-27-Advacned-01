@@ -277,16 +277,16 @@ namespace Advanced
     #endregion
 
     #region Quistion17
-    Q17: What is the difference between covariance and contravariance?
-     --Covariance
-        Keyword:out.
-        Direction:Converts from derived to base (IEnumerable<String> to IEnumerable<Object>)
-        Position Allowed:Only on Return positions(Output)
+    //Q17: What is the difference between covariance and contravariance?
+    // --Covariance
+    //    Keyword:out.
+    //    Direction:Converts from derived to base (IEnumerable<String> to IEnumerable<Object>)
+    //    Position Allowed:Only on Return positions(Output)
 
-     --Contravariance
-        Keyword:in.
-        Direction:Converts from base to derived(IComparer<Object> to IComparer<String>)
-        Position Allowed:Only on Parameter positions(Input)
+    // --Contravariance
+    //    Keyword:in.
+    //    Direction:Converts from base to derived(IComparer<Object> to IComparer<String>)
+    //    Position Allowed:Only on Parameter positions(Input)
 
     #endregion
 
