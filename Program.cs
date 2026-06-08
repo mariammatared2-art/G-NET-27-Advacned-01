@@ -211,14 +211,14 @@ namespace Advanced
     #endregion
 
     #region Quistion13
-    Q13: What does the 'default' keyword do in generics?
-        In generics, the default keyword returns the default literal value of a type parameter at runtime.
+//    Q13: What does the 'default' keyword do in generics?
+//        In generics, the default keyword returns the default literal value of a type parameter at runtime.
 
-For reference types, it returns null.
+//For reference types, it returns null.
 
-For numeric value types, it returns 0.
+//For numeric value types, it returns 0.
 
-For structs, it returns an instance with all fields initialized to zero/null.
+//For structs, it returns an instance with all fields initialized to zero/null.
 
     #endregion
 
