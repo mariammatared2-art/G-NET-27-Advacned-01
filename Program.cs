@@ -50,20 +50,20 @@ namespace Advanced
 
     #region Quistion3
 
-        Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
-            Multiple type parameters allow a generic class or method to handle more than one flexible data type at the same time.
-            You separate them using commas inside the angle brackets<>.
-            public class Pair<TKey, TValue>
-        {
-            public TKey Key { get; set; }
-            public TValue Value { get; set; }
+        //Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
+        //    Multiple type parameters allow a generic class or method to handle more than one flexible data type at the same time.
+        //    You separate them using commas inside the angle brackets<>.
+        //    public class Pair<TKey, TValue>
+        //{
+        //    public TKey Key { get; set; }
+        //    public TValue Value { get; set; }
 
-            public Pair(TKey key, TValue value)
-            {
-            Key = key;
-            Value = value;
-            }
-        }
+        //    public Pair(TKey key, TValue value)
+        //    {
+        //    Key = key;
+        //    Value = value;
+        //    }
+        //}
     #endregion
 
     #region Quistion4
