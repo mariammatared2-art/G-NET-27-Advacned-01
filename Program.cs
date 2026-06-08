@@ -181,19 +181,19 @@ namespace Advanced
     #endregion
 
     #region Quistion11
-    Q11: What is the base class constraint? Write an example.
-        The base class constraint limits the type argument to a specific base class or any of its derived subclasses.
-        public class Animal { public string Name { get; set; } }
-    public class Dog : Animal { }
+    //Q11: What is the base class constraint? Write an example.
+    //    The base class constraint limits the type argument to a specific base class or any of its derived subclasses.
+    //    public class Animal { public string Name { get; set; } }
+    //public class Dog : Animal { }
 
-    public class AnimalShelter<T> where T : Animal
-    {
-        public void PrintAnimalName(T animal)
-        {
-            // Safe to access properties of Animal
-            Console.WriteLine(animal.Name);
-        }
-    }
+    //public class AnimalShelter<T> where T : Animal
+    //{
+    //    public void PrintAnimalName(T animal)
+    //    {
+    //        // Safe to access properties of Animal
+    //        Console.WriteLine(animal.Name);
+    //    }
+    //}
     #endregion
 
     #region Quistion12
