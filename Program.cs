@@ -197,16 +197,16 @@ namespace Advanced
     #endregion
 
     #region Quistion12
-    Q12: How do you apply multiple constraints? Write an example.
-        You can chain multiple constraints for a single type parameter by separating them with commas.
-        If you have multiple parameters, use separate where clauses.
-        public class AdvancedContainer<TKey, TValue>
-    where TKey : struct
-    where TValue : class, IComparable<TValue>, new()
-    {
-        // TKey must be a value type
-        // TValue must be a reference type, implement IComparable, and have a parameterless constructor
-    }
+    //Q12: How do you apply multiple constraints? Write an example.
+    //    You can chain multiple constraints for a single type parameter by separating them with commas.
+    //    If you have multiple parameters, use separate where clauses.
+    //    public class AdvancedContainer<TKey, TValue>
+    //where TKey : struct
+    //where TValue : class, IComparable<TValue>, new()
+    //{
+    //    // TKey must be a value type
+    //    // TValue must be a reference type, implement IComparable, and have a parameterless constructor
+    //}
 
     #endregion
 
