@@ -223,24 +223,24 @@ namespace Advanced
     #endregion
 
     #region Quistion14
-    Q14: Write a SafeList<T> that returns default when the index is invalid.
-            using System.Collections.Generic;
+//    Q14: Write a SafeList<T> that returns default when the index is invalid.
+//            using System.Collections.Generic;
 
-public class SafeList<T>
-    {
-        private List<T> _list = new List<T>();
+//public class SafeList<T>
+//    {
+//        private List<T> _list = new List<T>();
 
-        public void Add(T item) => _list.Add(item);
+//        public void Add(T item) => _list.Add(item);
 
-        public T GetAt(int index)
-        {
-            if (index < 0 || index >= _list.Count)
-            {
-                return default(T); // Returns null for reference types, 0 for ints, etc.
-            }
-            return _list[index];
-        }
-    }
+//        public T GetAt(int index)
+//        {
+//            if (index < 0 || index >= _list.Count)
+//            {
+//                return default(T); // Returns null for reference types, 0 for ints, etc.
+//            }
+//            return _list[index];
+//        }
+//    }
 
     #endregion
 
