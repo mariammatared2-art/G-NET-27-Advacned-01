@@ -85,23 +85,23 @@ namespace Advanced
 
     #region Quistion5
 
-    Q5: Write a generic method FindMax<T> that finds maximum value
+    //Q5: Write a generic method FindMax<T> that finds maximum value
 
-        public class MathUtility
-    {
-        public static T FindMaxValue<T>(T[] arr) where T : IComparable<T>
-        {
-            T max = arr[0];
-            foreach (T item in arr)
-            {
-                if (item.CompareTo(max) > 0)
-                {
-                    max = item;
-                }
-            }
-            return max;
-        }
-    }
+    //    public class MathUtility
+    //{
+    //    public static T FindMaxValue<T>(T[] arr) where T : IComparable<T>
+    //    {
+    //        T max = arr[0];
+    //        foreach (T item in arr)
+    //        {
+    //            if (item.CompareTo(max) > 0)
+    //            {
+    //                max = item;
+    //            }
+    //        }
+    //        return max;
+    //    }
+    //}
     #endregion
 
     #region Quistion6
