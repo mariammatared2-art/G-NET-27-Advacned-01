@@ -68,19 +68,19 @@ namespace Advanced
 
     #region Quistion4
 
-    Q4: What is a generic method? Write Swap<T> method.
-         A generic method is a method declared with type parameters, allowing it to operate on different data types regardless
-        of whether the containing class itself is generic.
+    //Q4: What is a generic method? Write Swap<T> method.
+    //     A generic method is a method declared with type parameters, allowing it to operate on different data types regardless
+    //    of whether the containing class itself is generic.
 
-        public class Utility
-    {
-        public static void Swap<T>(ref T a , ref T b)
-        {
-            T temp = a;
-            a = b;
-            b = temp;
-        }
-    }
+    //    public class Utility
+    //{
+    //    public static void Swap<T>(ref T a , ref T b)
+    //    {
+    //        T temp = a;
+    //        a = b;
+    //        b = temp;
+    //    }
+    //}
     #endregion
 
     #region Quistion5
