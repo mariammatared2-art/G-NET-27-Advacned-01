@@ -135,19 +135,19 @@ namespace Advanced
 
     #region Quistion8
 
-    Q8: What is the 'class' constraint? Write an example.
-        The where T : class constraint specifies that the type argument must be a reference
-        type(like string, arrays,interfaces, or classes).
-        public class ReferenceTypeLogger<T> where T : class
-    {
-        public void LogIfNotNull(T item)
-        {
-            if (item != null)
-            {
-                Console.WriteLine(item.ToString());
-            }
-        }
-    }
+    //Q8: What is the 'class' constraint? Write an example.
+    //    The where T : class constraint specifies that the type argument must be a reference
+    //    type(like string, arrays,interfaces, or classes).
+    //    public class ReferenceTypeLogger<T> where T : class
+    //{
+    //    public void LogIfNotNull(T item)
+    //    {
+    //        if (item != null)
+    //        {
+    //            Console.WriteLine(item.ToString());
+    //        }
+    //    }
+    //}
     #endregion
 
     #region Quistion9
