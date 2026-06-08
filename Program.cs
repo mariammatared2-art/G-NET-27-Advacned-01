@@ -164,20 +164,20 @@ namespace Advanced
     #endregion
 
     #region Quistion10
-    Q10:  What is the interface constraint? Write an example.
-        The interface constraint restricts the type argument to only those types that implement a specific interface.
-        public interface IDisposable
-    {
-        void Dispose();
-    }
+    //Q10:  What is the interface constraint? Write an example.
+    //    The interface constraint restricts the type argument to only those types that implement a specific interface.
+    //    public interface IDisposable
+    //{
+    //    void Dispose();
+    //}
 
-    public class ResourceCleaner<T> where T : IDisposable
-    {
-        public void UseAndDispose(T resource)
-        {
-            resource.Dispose();
-        }
-    }
+    //public class ResourceCleaner<T> where T : IDisposable
+    //{
+    //    public void UseAndDispose(T resource)
+    //    {
+    //        resource.Dispose();
+    //    }
+    //}
     #endregion
 
     #region Quistion11
