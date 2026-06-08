@@ -151,16 +151,16 @@ namespace Advanced
     #endregion
 
     #region Quistion9
-    Q9: What is the 'new()' constraint? Write an example.
-        The where T : new () constraint specifies that a type argument must have a public parameterless constructor.
-        This allows you to instantiate the type inside the generic class using new T().
-        public class Factory<T> where T : new()
-    {
-        public T CreateInstance()
-        {
-            return new T();
-        }
-    }
+    //Q9: What is the 'new()' constraint? Write an example.
+    //    The where T : new () constraint specifies that a type argument must have a public parameterless constructor.
+    //    This allows you to instantiate the type inside the generic class using new T().
+    //    public class Factory<T> where T : new()
+    //{
+    //    public T CreateInstance()
+    //    {
+    //        return new T();
+    //    }
+    //}
     #endregion
 
     #region Quistion10
