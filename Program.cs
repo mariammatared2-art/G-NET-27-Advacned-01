@@ -291,19 +291,19 @@ namespace Advanced
     #endregion
 
     #region Quistion18
-    Q18: How do static members work in generic types?
-        Static fields and members are not shared across different closed generic type instances.
-        Each unique type combination gets its own independent set of static variables.
-        public class GenericCounter<T>
-    {
-        public static int Count { get; set; }
-    }
+    //Q18: How do static members work in generic types?
+    //    Static fields and members are not shared across different closed generic type instances.
+    //    Each unique type combination gets its own independent set of static variables.
+    //    public class GenericCounter<T>
+    //{
+    //    public static int Count { get; set; }
+    //}
 
-    GenericCounter<int>.Count = 5;
-    GenericCounter<string>.Count = 10;
+    //GenericCounter<int>.Count = 5;
+    //GenericCounter<string>.Count = 10;
 
-    Console.WriteLine(GenericCounter<int>.Count); 
-    Console.WriteLine(GenericCounter<string>.Count);
+    //Console.WriteLine(GenericCounter<int>.Count); 
+    //Console.WriteLine(GenericCounter<string>.Count);
 
     #endregion
 
